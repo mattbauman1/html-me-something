@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Matt's Page</title>
+	</head>
+	<bodY>
+		<header>
+			<h1><center>Canada is Fun!</center></h1>
+		<h2>So was Niagara Falls</h2>
+		</header>
+		<main>
+		<article>
+		<h1>Toronto Trip</h1>
+		<p>Canada was a really awesome time.</p>
+		</article>
+		</main>
+	</body>
+
+</html>
