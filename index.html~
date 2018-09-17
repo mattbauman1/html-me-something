@@ -2,6 +2,8 @@
 <html>
 	<head>
 		<title>My Canadian Journey</title>
+		<link rel="stylesheet" href="normalize.css">
+		<link rel="stylesheet" href="styles.css">
 	</head>
 	<bodY>
 		<header>
@@ -9,66 +11,66 @@
 		</header>
 		<main>
 		<article>
-		<section>
-		<h2>Toronto Trip</h2>
+		<section class="firstsect">
+		<h2 class="mainsect">Toronto Trip</h2>
 		<figure>
-		<img src="Toronto_Union_Station.jpg"/>
+		<img src="images/Toronto_Union_Station.jpg"/>
 		<figcaption>Toronto Union Station</figcaption>
 		</figure>
 		<p>Our jouney started out with an impromptu trip one random Wednesday to Toronto. I was very bored, and so was one of my friends, so we hopped the the car and started the drive from St.Louis to Canada. It was quite a bit of driving, but totally worth it. We visited a lot of cool places around the city.</p>
-		<h3>The Distillery District</h3>
+		<h3 class="subsect">The Distillery District</h3>
 		<figure>
-		<img src="Distill_Tower.jpg"/>
+		<img src="images/Distill_Tower.jpg"/>
 		<figcaption>Distilling tower used to make Gin and Vodka...yummy!</figcaption>
 		</figure>
 		<figure>
-		<img src="Brewery.jpg"/>
+		<img src="images/Brewery.jpg"/>
 		<figcaption>Mill Street Brewery in Toronto</figcaption>
 		</figure>
 		<p>The Distillery District was a lot of fun. The whole area was basically one big bar that was built into what was an old gin distilling facility. Our favorite place was the "Spirit of York Distillery". They took what was the old gin distillery that had existed years ago and revided to operation into a new working distillery. Also, they were very giving with the samples, and their gin was totally awesome, so much Juniper! Also, the brewery they had built into the facility for beer was good too, we love small scale brewing!</p>
-		<h3>Downtown was Cool Too!!!</h3>
+		<h3 class="subsect">Downtown was Cool Too!!!</h3>
 		<figure>
-		<img src="CN_Tower.jpg"/>
+		<img src="images/CN_Tower.jpg"/>
 		<figcaption>CN Tower</figcaption>
 		</figure>
 		<figure>
-		<img src="Old_City_Hall.jpg"/>
+		<img src="images/Old_City_Hall.jpg"/>
 		<figcaption>Old City Hall</figcaption>
 		</figure>
 		<figure>
-		<img src="Train_Engine.jpg"/>
+		<img src="images/Train_Engine.jpg"/>
 		<figcaption>Engine at Toronto Train Museum</figcaption>
 		</figure>
 		<p>The CN Tower is a really tall tower. It is neat how it was just a simple TV transmitter at one time, but now is a really cool landmark. Also, the train museum we found was neat as well. Toronto has a lot of history that involves locomotives and it was really cool to learn about it. The Old City Hall was a really awesome building too. The old architecture was very neat!</p>
-		<h3>Lastly, Dinner Before We Left...</h3>
+		<h3 class="subsect">Lastly, Dinner Before We Left...</h3>
 		<figure>
-		<img src="Prime_Rib.jpg"/>
+		<img src="images/Prime_Rib.jpg"/>
 		<figcaption>Prime Rib at the "Keg", Seriously TRY it if ever in Toronto!!!</figcaption>
 		</figure>
 		<p>Dinner before we left for the next part of our trip was a random place that we thought was a bar, but turned out to be an awesome steak house. The "Keg" really sounded like a bar, and they did have alcohol...but it was really more about the meat. The prime rib was super cheap and super good...so an accidental better ending to Toronto that we had planned!</p>
 		</section>
-		<section>
-		<h2>Niagara Falls Part of the Trip</h2>
+		<section class="secondsect">
+		<h2 class="mainsect">Niagara Falls Part of the Trip</h2>
 		<figure>
-		<img src="Niagara_Falls.jpg"/>
+		<img src="images/Niagara_Falls.jpg"/>
 		<figcaption>Niagara Falls from the Canadian Side</figcaption>
 		</figure>
 		<p>The last part of our jounrey was coming home through Niagara Falls. We had a lot of fun traversing both the Canadian and American side of the falls. The falls are so big and awesome. It amazed us how much water passes through them so quickly and constantly.</p>
-		<h3>Standing Between Canada and the USA</h3>
+		<h3 class="subsect">Standing Between Canada and the USA</h3>
 		<figure>
-		<img src="The_Border.jpg"/>
+		<img src="images/The_Border.jpg"/>
 		<figcaption>The USA/Canada Border on the Walking Bridge</figcaption>
 		</figure>
 		<p>One of the neat treats of visiting Niagara Falls was being able to stand in both Canada and the United States at the same time. The foot bridge you could take between the two countries also gave a great perspective of the falls themselves.</p>
-		<h3>It's A Long Way Down</h3>
+		<h3 class="subsect">It's A Long Way Down</h3>
 		<figure>
-		<img src="Long_Way_Down.jpg"/>
+		<img src="images/Long_Way_Down.jpg"/>
 		<figcaption>Looking Down the Falls from the American Side</figcaption>
 		</figure>
 		<p>The tons of water that flow over the Falls and onto the rocks below makes you feel very small. Nature is amazing and amazingly powerful!</p>
-		<h3>Time to Go Home!</h3>
+		<h3 class="subsect">Time to Go Home!</h3>
 		<figure>
-		<img src="Border_Leaving.jpg"/>
+		<img src="images/Border_Leaving.jpg"/>
 		<figcaption>Crossing the Border from Canada to USA at Niagara Falls</figcaption>
 		</figure>
 		<p>Sadly, though, our tirp finally had to come to an end and we had to make the trek back to St.Louis. We had a lot of fun and plan on returning soon, for maybe an even longer trip. It was a great vacation overall, and I highly suggest Toronto to anyone looking for a great holiday!!!</p>
@@ -76,8 +78,8 @@
 		</article>
 		</main>
 		<footer>
-		<p>Page &copy; 2018 Matt Bauman</p>
-		<p>Photos &copy; 2017 Matt Bauman &amp; Nathan Murray</p>
+		<p id="firstcr">Page &copy; 2018 Matt Bauman</p>
+		<p id="secondcr">Photos &copy; 2017 Matt Bauman &amp; Nathan Murray</p>
 		</footer>
 	</body>
 

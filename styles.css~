@@ -1,0 +1,44 @@
+p {
+	margin: 25px 25px;
+	font-size: 36px;
+}
+
+h1 {
+	text-align: center;
+	color: green;
+	text-decoration: underline;
+	font-size: 72px;
+}
+
+.mainsect {
+	margin: 25px 150px;
+	color: blue;
+	font-size: 60px;
+}
+
+.subsect {
+	margin: 10px 200px;
+	color: red;
+	font-size: 48px;
+}
+
+.firstsect {
+	padding: 50px 0px;
+}
+
+.secondsect {
+	padding: 50px 0px;
+}
+
+figcaption {
+	color: green;
+	font-size: 30px;
+}
+
+#firstcr {
+	color: blue;
+}
+
+#secondcr {
+	color: red;
+}
